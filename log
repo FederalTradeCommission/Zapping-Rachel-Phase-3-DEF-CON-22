@@ -1,0 +1,30 @@
+Running ID3 Classifier
+Training data: training_data.csv
+Output: result.csv
+Initialzied ID3 classifer with decision tree:
+
+{'Calling 800': {'No': {'Calling 866': {'No': {'Number of Outbound Calls': {'<=25': {'Night': {'No': {'Calling from 800': {'No': {'Unique Outbound': {'High': '1',
+                                                                                                                                                      'Low': '0'}},
+                                                                                                                           'Yes': {'Unique Outbound': {'High': '1',
+                                                                                                                                                       'Low': '0'}}}},
+                                                                                               'Yes': {'Calling from 800': {'No': {'Unique Outbound': {'High': '1',
+                                                                                                                                                       'Low': '0'}},
+                                                                                                                            'Yes': {'Unique Outbound': {'High': '1',
+                                                                                                                                                        'Low': '0'}}}}}},
+                                                                            '>25': {'Night': {'No': {'Calling from 800': {'No': {'Unique Outbound': {'High': '1',
+                                                                                                                                                     'Low': '0'}},
+                                                                                                                          'Yes': {'Unique Outbound': {'High': '1',
+                                                                                                                                                      'Low': '0'}}}},
+                                                                                              'Yes': {'Calling from 800': {'No': {'Unique Outbound': {'High': '0',
+                                                                                                                                                      'Low': '0'}}}}}}}},
+                                        'Yes': {'Number of Outbound Calls': {'<=25': {'Night': {'No': {'Calling from 800': {'No': {'Unique Outbound': {'High': '0',
+                                                                                                                                                       'Low': '0'}},
+                                                                                                                            'Yes': {'Unique Outbound': {'High': '0',
+                                                                                                                                                        'Low': '0'}}}},
+                                                                                                'Yes': '0'}},
+                                                                             '>25': {'Night': {'No': {'Calling from 800': {'No': {'Unique Outbound': {'High': '1',
+                                                                                                                                                      'Low': '0'}},
+                                                                                                                           'Yes': '1'}},
+                                                                                               'Yes': '0'}}}}}},
+                 'Yes': '0'}}
+Done
