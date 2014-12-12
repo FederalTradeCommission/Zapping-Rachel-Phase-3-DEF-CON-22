@@ -1,0 +1,24 @@
+After looking through the example data the best criteria
+found were that during the 4-noon time period there were
+very few robo calls. Next to none actually. So assuming
+calls during that time are not robocalls is relatively
+accurate. Also if the number called more than about 5 people
+it is most likely a robo caller. There are of course exceptions
+to this but it is mostly true. Instead of finding criteria to
+deal with these exceptions I assumed if they were making calls
+to more than five numbers then it definitely was a robot. 
+
+It became more difficult to differentiate robo and human when
+a number only called one person one time. This did not happen
+very often for robo callers but it did happen. Because I could
+not determine a viable solution to this I assumed if the number
+only called one number then it was a human. 
+
+By filtering on the 4-noon calls I would manage to
+scoop up the humans who called lots of numbers and not include
+them as robots.
+
+The code is written in Python and requires the pandas module. pandas
+makes working with large data sets simple. The algorithm is unfortunately
+slow, but the goal of this was accuracy not speed so I did not worry about it.
+Speed is lost when setting the LIKELY ROBOCALL column.
